@@ -20,7 +20,7 @@ const resolvers = {
       return { token, user };
 
     },
-    saveBook: async (parent, { _id, techNum }) => {
+    savedBook: async (parent, { _id, techNum }) => {
 
     },
     removeBook: async (parent, { _id, techNum }) => {
